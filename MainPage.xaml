@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Dedea_Alexandra_Lab7.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+            <Image
+                Source="elev.jpg"
+                SemanticProperties.Description="Elevii te salută!"
+                HeightRequest="200"
+                HorizontalOptions="Center" />
+
+            <Label
+                Text=Bună ziua, noi suntem elevii școlii!"
+                SemanticProperties.HeadingLevel="Level1"
+                FontSize="32"
+                HorizontalOptions="Center" />
+
+            <Label
+                Text="Bine ai venit în aplicația noastră!"
+                SemanticProperties.HeadingLevel="Level2"
+                SemanticProperties.Description="Această este aplicația noastră!"
+                FontSize="18"
+                HorizontalOptions="Center" />
+
+            <Button
+                x:Name="CounterBtn"
+                Text="Click me"
+                SemanticProperties.Hint="Counts the number of times you click"
+                Clicked="OnCounterClicked"
+                HorizontalOptions="Center" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
