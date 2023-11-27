@@ -16,7 +16,7 @@
                 HorizontalOptions="Center" />
 
             <Label
-                Text=Bună ziua, noi suntem elevii școlii!"
+                Text="Buna noi suntem elevii scolii!"
                 SemanticProperties.HeadingLevel="Level1"
                 FontSize="32"
                 HorizontalOptions="Center" />
